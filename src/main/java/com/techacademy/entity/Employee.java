@@ -34,7 +34,7 @@ public class Employee {
             return this.name;
         }
     }
-
+    
     // ID
     @Id
     @Column(length = 10)
@@ -68,5 +68,5 @@ public class Employee {
     // 更新日時
     @Column(nullable = false)
     private LocalDateTime updatedAt;
-
+    
 }
